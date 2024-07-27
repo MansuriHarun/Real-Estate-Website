@@ -1,5 +1,5 @@
 # Real-Estate-Website
-Welcome to **Death Note Realty**, a unique real estate platform where we blend the practicalities of property management with the thrilling allure of the Death Note universe. Just like Light Yagami’s strategic genius and Ryuk’s mischievous charm, our platform aims to revolutionize how you experience real estate!
+Welcome to **Death Note Realty**, Discover a unique real estate platform that mixes property management with a touch of Death Note excitement. Our aim is to bring a fresh perspective to real estate, inspired by the strategic brilliance of Light Yagami and the playful spirit of Ryuk.
 
 ### Tech Stack
 
