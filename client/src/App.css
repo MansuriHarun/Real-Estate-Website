@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.add-property-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-property-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-title {
+    margin: 10px 0;
+  }
+  
+  .card-description {
+    margin: 10px 0;
+  }
+  
+  .card-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .update-icon {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+
+  .update-icon:hover {
+    color: #0056b3;
+  }
+
+  .delete-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .delete-icon:hover {
+    color: #ff1a1a;
+  }  
+  
+  .card-link {
+    color: #fff;
+    text-decoration: none;
+  }  
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* About Page Css */
+.about-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    text-align: left;
+  }
+  
+  .about-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .about-subtitle {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .team-member-image {
+    width: 100%;
+    height: 50vh;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member-name {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .team-member-role {
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+/* Contact Page Css */
+.contact-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    text-align: left;
+  }
+  
+  .contact-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .contact-form {
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .contact-info {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 1.2em;
+  }
+  
+  .contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+  }  
